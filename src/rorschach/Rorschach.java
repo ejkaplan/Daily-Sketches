@@ -22,7 +22,7 @@ public class Rorschach extends PApplet {
     }
 
     public void draw() {
-        if (frameCount >= gifFrames) {
+        if (frameCount > gifFrames) {
             exit();
             return;
         }
