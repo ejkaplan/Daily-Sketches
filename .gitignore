@@ -1,0 +1,4 @@
+core.jar
+out
+*.iml
+src/*/output
